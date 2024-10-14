@@ -21,5 +21,5 @@ def test_login_via_recover_password(driver):
     # Нажатие кнопки "Войти"
     driver.find_element(*StellarBurgersLocators.LOGIN_SUBMIT_BUTTON).click()
 
-    # Закрытие браузера
+    #Закрытие браузера
     driver.quit()
